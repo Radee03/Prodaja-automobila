@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodaja Automobila</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigacija -->
+    <header>
+        <div class="container">
+            <h1>Prodaja Automobila</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Početna</a></li>
+                    <li><a href="#cars">Automobili</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Početna stranica -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Vaš sledeći automobil je samo jedan klik daleko!</h2>
+            <p>Prodaja kvalitetnih automobila po povoljnim cenama</p>
+            <a href="#cars" class="btn">Pogledajte Automobile</a>
+        </div>
+    </section>
+
+    <!-- Automobili -->
+    <section id="cars" class="cars-section">
+        <div class="container">
+            <h2>Naša Ponuda Automobila</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <img src="car1.jpg" alt="Auto 1">
+                    <h3>BMW 320d</h3>
+                    <p>Godina: 2018, Kilometraža: 80,000 km</p>
+                    <p>Cena: 20,000 EUR</p>
+                    <a href="tel:+38160000000" class="btn">Pozovite nas</a>
+                </div>
+                <div class="car-item">
+                    <img src="car2.jpg" alt="Auto 2">
+                    <h3>Audi A4</h3>
+                    <p>Godina: 2017, Kilometraža: 95,000 km</p>
+                    <p>Cena: 18,000 EUR</p>
+                    <a href="tel:+38160000000" class="btn">Pozovite nas</a>
+                </div>
+                <!-- Dodajte još automobila po potrebi -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Kontaktirajte nas</h2>
+            <p>Za dodatne informacije, pozovite nas ili pošaljite email.</p>
+            <p>Telefon: <strong>+381 60 000 000</strong></p>
+            <p>Email: <strong>info@automobili.com</strong></p>
+            <form action="#" method="post">
+                <label for="name">Ime:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Poruka:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Pošaljite Poruku</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Prodaja Automobila. Sva prava zadržana.</p>
+    </footer>
+</body>
+</html>

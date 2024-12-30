@@ -1,0 +1,183 @@
+/* Osnovne stilove */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Hero sekcija */
+.hero {
+    background-color: #333;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.hero .btn:hover {
+    background-color: #c0392b;
+}
+
+/* Automobili sekcija */
+.cars-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.cars-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.car-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.car-item p {
+    margin-top: 10px;
+}
+
+.car-item .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.car-item .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Kontakt sekcija */
+.contact-section {
+    padding: 50px 0;
+    background-color: #ecf0f1;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
